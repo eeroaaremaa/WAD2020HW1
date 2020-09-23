@@ -69,3 +69,111 @@ body{
 *{
     font-family: 'Bitter', serif;
 }
+
+
+/* index.html leht */
+
+.flex-container {
+    display: flex;
+    background-color: white;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+  }
+  
+  .flex-container > div {
+    background-color: #ccc6c6;
+    width: 300px;
+    margin: 10px;
+    height: 300px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  nav {
+
+    display: flex;
+
+    background-color: #ffffff;
+
+    align-items: center;
+
+    position: fixed; 
+
+    top: 0; 
+    
+    width: 100%; 
+
+}
+
+
+
+nav div{
+
+    height: 30px;
+
+    flex-grow: 4;
+
+    padding: 10px;
+
+}
+
+nav div img {
+
+    height: 100%;
+
+}
+
+nav div.search-container > input {
+
+    box-sizing: border-box;
+
+    height: 30px;
+
+    width: 80%;
+
+    margin: 0;
+
+    padding: 5px;
+
+    border: 1px solid #e0e0e0;
+
+}
+
+nav div.search-container > button {
+
+    box-sizing: border-box;
+
+    height: 30px;
+
+    width: 20%;
+
+    margin: 0;
+
+    padding: 5px;
+
+    color: white;
+
+    border: 1px solid #e0e0e0;
+
+    cursor: pointer;
+
+    background-color: #287fd1;
+
+    border-radius: 3px;
+
+}
+.user {
+    float: right;
+    padding-right: 10px;
+}
+.pilt{
+    width: 100%;
+
+}
+
