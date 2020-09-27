@@ -110,11 +110,11 @@ body{
     box-shadow: 0 0 4px 4px rgb(224, 224, 224);
   }
   .box1 {
-    height: 410px;
+    height: 415px;
   }
 
   .box2 {
-    height: 105px;
+    height: 125px;
   }
   .box3 {
     height: 370px;
@@ -218,7 +218,7 @@ nav div.search-container > button {
     float: right;
 }
 .divRight p{
-    
+
     font-size: 10px;
 
     padding-right: 5px;
