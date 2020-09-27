@@ -40,7 +40,7 @@ input[type=text], input[type=password]{
 }
 
 
-input[type=button]{
+input[type=submit]{
     background-color: #1777BD;
     color: #FFF;
     font-family: 'Bitter', serif;
